@@ -2,7 +2,7 @@ package tools.fastlane.screengrab.locale;
 
 import android.content.res.Configuration;
 import android.os.Build;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 import android.util.Log;
 
 import java.lang.reflect.Method;

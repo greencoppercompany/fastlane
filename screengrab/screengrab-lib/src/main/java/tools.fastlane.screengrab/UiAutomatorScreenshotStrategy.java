@@ -3,7 +3,7 @@ package tools.fastlane.screengrab;
 import android.annotation.TargetApi;
 import android.app.UiAutomation;
 import android.os.Build;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 
 /**
  * <p>Screenshot strategy that delegates to UiAutomation for screenshot capture. <b>Requires
