@@ -32,7 +32,7 @@ extension ScreengrabfileProtocol {
   var useTestsInPackages: [String]? { return nil }
   var useTestsInClasses: [String]? { return nil }
   var launchArguments: [String]? { return nil }
-  var testInstrumentationRunner: String { return "android.support.test.runner.AndroidJUnitRunner" }
+  var testInstrumentationRunner: String { return "androidx.test.runner.AndroidJUnitRunner" }
   var endingLocale: String { return "en-US" }
   var appApkPath: String? { return nil }
   var testsApkPath: String? { return nil }
